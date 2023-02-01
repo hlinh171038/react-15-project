@@ -1,0 +1,22 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+}
+ 
+#squares{
+    width: 606px;
+    height:606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    border: 1px blue solid;
+}
+
+.mole{
+   background-color:red;
+}
