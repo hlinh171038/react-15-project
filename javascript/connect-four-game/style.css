@@ -1,0 +1,32 @@
+.grid{
+    border: 1px solid black;
+    width:300px;
+    height:300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div {
+    width:20px;
+    height:20px; 
+}
+.alienInvender {
+    width: 20px;
+    height:20px;
+    border-radius:10px;
+    background-color: blueviolet;
+}
+.shooter {
+    width: 20px;
+    height:20px;
+    background-color: rgb(235, 12, 20);
+}
+.laser{
+    background-color:yellow;
+    width: 20px;
+    height:20px;
+}
+.boom{
+    background-color:orange;
+    width: 20px;
+    height:20px;
+}
