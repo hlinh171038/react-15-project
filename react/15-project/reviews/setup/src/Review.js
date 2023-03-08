@@ -51,7 +51,7 @@ const Review = () => {
                 <button className='next-btn' onClick={handleNext}>
                   <FaChevronRight/>
                 </button>
-                <button className='random-btn' onClick={handleRandom}>suprise me</button>
+                <button className='random-btn' onClick={handleRandom}>suprise hoi me</button>
               </div>
             </div>
           </artical>;
