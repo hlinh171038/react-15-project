@@ -33,7 +33,6 @@ const Review = () => {
   const handleRandom = ()=>{
     let randomReview = Math.floor(Math.random() *people.length);
     setIndex(randomReview);
-
   }
 
   return <artical className="review">
@@ -52,7 +51,7 @@ const Review = () => {
                 <button className='next-btn' onClick={handleNext}>
                   <FaChevronRight/>
                 </button>
-                <button className='random-btn' onClick={handleRandom}>suprise me</button>
+                <button className='random-btn' onClick={handleRandom}>suprise me!!!</button>
               </div>
             </div>
           </artical>;
