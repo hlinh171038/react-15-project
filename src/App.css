@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: grid;
+  grid-template-columns:auto;
+  justify-content: center;
+  align-items: center;
+  margin:7rem;
+  border:1px solid grey;
+  box-shadow: 0 0 1rem black;
+}
+.accordation-artical{
+  background-color: whitesmoke;
+  font-family: sans-serif;
+  margin:0.5rem 0;
+  padding: 1rem 8rem;
+}
+.question-container{
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: auto auto ;
+}
+.title-btn{
+  border:none;
+  text-align: end;
+  margin: 0.2rem 2rem;
+}
