@@ -1,0 +1,27 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+.loading{
+    font-size:2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+        width: 90vw;
+        margin: 5rem auto;
+       display:grid;
+       grid-template-areas: 'nav tab tab tab tab tab';
+}
+.navbar-container{
+    max-width:200px;
+    background-color: whitesmoke;
+    grid-area: nav;
+}
+.tabs-container{
+    background-color: whitesmoke;
+    grid-area: tab;
+}
